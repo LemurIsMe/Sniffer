@@ -49,3 +49,9 @@ SnifferMain is the class that holds the package specific properties and passes t
 In order to make it work properly, user needs to edit "DatabaseGlobals" POJO class contents so the program will know what database to connect and operate on.
 
 NICSelector is the class that starts the program.
+
+========Future========
+
+For the future of the program, there are several things to do such as reworking on the code to be cleaner and more efficient, getting rid of unused and deprecated parts etc.
+thethings to come are adding a better filtering option for the "timestamp" property, a few more functions such as exporting the captured data as a separated file or
+displaying the nic traffic before the card selection, in order to make user know which card handles their traffic and which ones are IDLE.
