@@ -1,12 +1,12 @@
 # LightSniffer
 My Network Sniffer project dedicated to the graduation
 
-========Introduction========
+## Introduction
 
 The project and it's concept is fairly simple. A lightweight network packet sniffer that retrieves the available Network Interface Cards from a system, lets the user pick one of them and starts to
 log certain network packets such as TCP or UDP into a PostgreSQL table, created for the specific NIC card.
 
-========Technologies========
+## Technologies
 
 The project contains 3 main parts, which are Database related classes, Sniffer code itself and the GUI related classes.
 
@@ -44,13 +44,13 @@ RetrieveNICInfo is the class thats holds necessary methods to detect the devices
 SnifferMain is the class that holds the package specific properties and passes them to be saved in database, by the help of jnetpcap external library.
 
 
-========Launch========
+## Launch
 
 In order to make it work properly, user needs to edit "DatabaseGlobals" POJO class contents so the program will know what database to connect and operate on.
 
 NICSelector is the class that starts the program.
 
-========Future========
+## Future
 
 For the future of the program, there are several things to do such as reworking on the code to be cleaner and more efficient, getting rid of unused and deprecated parts etc.
 thethings to come are adding a better filtering option for the "timestamp" property, a few more functions such as exporting the captured data as a separated file or
